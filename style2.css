@@ -1,0 +1,90 @@
+
+body{
+    background-image: url('wallpaperflare.com_wallpaper.jpg');
+    background-size: cover;
+}
+
+
+.hands{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 150px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    transition: width 1s;
+}
+
+
+img:hover{
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.rules{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+#gamerule{
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+    text-shadow: 1px 1px black;
+    background-color: white;
+    border: solid black;
+    border-radius: 0.8rem;
+    padding: 5px;
+    opacity: 0;
+}
+
+
+.rules:hover {
+    text-shadow: 2px 2px gray;
+    cursor: pointer;
+}
+
+
+h1, h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.scoreboard{
+    text-shadow: 2px 2px gray;
+    text-align: center;
+    border: solid black;
+    border-radius: 5rem;
+    font-weight: bold;
+    width: 300px;
+    margin: auto;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.middlepage{
+    display: flex;
+    justify-content: center;
+}
+
+#userchoice{
+    margin-left: 15%;
+    margin-top: 2%;
+}   
+
+#pcchoice{
+    margin-right: 15%;
+    margin-top: 2%;
+}
+
+.whosturn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+
